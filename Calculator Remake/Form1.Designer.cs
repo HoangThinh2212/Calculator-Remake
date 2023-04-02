@@ -57,7 +57,8 @@
             // 
             // button1
             // 
-            button1.Location = new Point(43, 561);
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(43, 487);
             button1.Name = "button1";
             button1.Size = new Size(150, 62);
             button1.TabIndex = 0;
@@ -67,7 +68,8 @@
             // 
             // button2
             // 
-            button2.Location = new Point(43, 493);
+            button2.ForeColor = SystemColors.ActiveCaptionText;
+            button2.Location = new Point(43, 419);
             button2.Name = "button2";
             button2.Size = new Size(72, 62);
             button2.TabIndex = 1;
@@ -77,7 +79,8 @@
             // 
             // button3
             // 
-            button3.Location = new Point(121, 493);
+            button3.ForeColor = SystemColors.ActiveCaptionText;
+            button3.Location = new Point(121, 419);
             button3.Name = "button3";
             button3.Size = new Size(72, 62);
             button3.TabIndex = 2;
@@ -87,7 +90,8 @@
             // 
             // button4
             // 
-            button4.Location = new Point(199, 561);
+            button4.ForeColor = SystemColors.ActiveCaptionText;
+            button4.Location = new Point(199, 487);
             button4.Name = "button4";
             button4.Size = new Size(72, 62);
             button4.TabIndex = 3;
@@ -97,7 +101,8 @@
             // 
             // button5
             // 
-            button5.Location = new Point(199, 493);
+            button5.ForeColor = SystemColors.ActiveCaptionText;
+            button5.Location = new Point(199, 419);
             button5.Name = "button5";
             button5.Size = new Size(72, 62);
             button5.TabIndex = 4;
@@ -107,7 +112,8 @@
             // 
             // button6
             // 
-            button6.Location = new Point(277, 526);
+            button6.ForeColor = SystemColors.ActiveCaptionText;
+            button6.Location = new Point(277, 452);
             button6.Name = "button6";
             button6.Size = new Size(72, 97);
             button6.TabIndex = 5;
@@ -117,7 +123,8 @@
             // 
             // button7
             // 
-            button7.Location = new Point(277, 425);
+            button7.ForeColor = SystemColors.ActiveCaptionText;
+            button7.Location = new Point(277, 351);
             button7.Name = "button7";
             button7.Size = new Size(72, 95);
             button7.TabIndex = 6;
@@ -127,7 +134,8 @@
             // 
             // button9
             // 
-            button9.Location = new Point(43, 425);
+            button9.ForeColor = SystemColors.ActiveCaptionText;
+            button9.Location = new Point(43, 351);
             button9.Name = "button9";
             button9.Size = new Size(72, 62);
             button9.TabIndex = 8;
@@ -137,7 +145,8 @@
             // 
             // button10
             // 
-            button10.Location = new Point(121, 425);
+            button10.ForeColor = SystemColors.ActiveCaptionText;
+            button10.Location = new Point(121, 351);
             button10.Name = "button10";
             button10.Size = new Size(72, 62);
             button10.TabIndex = 9;
@@ -147,7 +156,8 @@
             // 
             // button11
             // 
-            button11.Location = new Point(199, 425);
+            button11.ForeColor = SystemColors.ActiveCaptionText;
+            button11.Location = new Point(199, 351);
             button11.Name = "button11";
             button11.Size = new Size(72, 62);
             button11.TabIndex = 10;
@@ -157,7 +167,8 @@
             // 
             // button8
             // 
-            button8.Location = new Point(43, 357);
+            button8.ForeColor = SystemColors.ActiveCaptionText;
+            button8.Location = new Point(43, 283);
             button8.Name = "button8";
             button8.Size = new Size(72, 62);
             button8.TabIndex = 11;
@@ -167,7 +178,8 @@
             // 
             // button12
             // 
-            button12.Location = new Point(121, 357);
+            button12.ForeColor = SystemColors.ActiveCaptionText;
+            button12.Location = new Point(121, 283);
             button12.Name = "button12";
             button12.Size = new Size(72, 62);
             button12.TabIndex = 12;
@@ -177,7 +189,8 @@
             // 
             // button13
             // 
-            button13.Location = new Point(199, 357);
+            button13.ForeColor = SystemColors.ActiveCaptionText;
+            button13.Location = new Point(199, 283);
             button13.Name = "button13";
             button13.Size = new Size(72, 62);
             button13.TabIndex = 13;
@@ -187,7 +200,8 @@
             // 
             // button14
             // 
-            button14.Location = new Point(277, 357);
+            button14.ForeColor = SystemColors.ActiveCaptionText;
+            button14.Location = new Point(277, 283);
             button14.Name = "button14";
             button14.Size = new Size(72, 62);
             button14.TabIndex = 14;
@@ -197,17 +211,19 @@
             // 
             // button15
             // 
-            button15.Location = new Point(43, 289);
+            button15.ForeColor = SystemColors.ActiveCaptionText;
+            button15.Location = new Point(43, 215);
             button15.Name = "button15";
             button15.Size = new Size(72, 62);
             button15.TabIndex = 15;
-            button15.Text = "%";
+            button15.Text = "𝑥^2";
             button15.UseVisualStyleBackColor = true;
             button15.Click += button15_Click;
             // 
             // button16
             // 
-            button16.Location = new Point(121, 289);
+            button16.ForeColor = SystemColors.ActiveCaptionText;
+            button16.Location = new Point(121, 215);
             button16.Name = "button16";
             button16.Size = new Size(72, 62);
             button16.TabIndex = 16;
@@ -217,7 +233,8 @@
             // 
             // button17
             // 
-            button17.Location = new Point(199, 289);
+            button17.ForeColor = SystemColors.ActiveCaptionText;
+            button17.Location = new Point(199, 215);
             button17.Name = "button17";
             button17.Size = new Size(72, 62);
             button17.TabIndex = 17;
@@ -227,7 +244,8 @@
             // 
             // button18
             // 
-            button18.Location = new Point(277, 289);
+            button18.ForeColor = SystemColors.ActiveCaptionText;
+            button18.Location = new Point(277, 215);
             button18.Name = "button18";
             button18.Size = new Size(72, 62);
             button18.TabIndex = 18;
@@ -237,7 +255,8 @@
             // 
             // button19
             // 
-            button19.Location = new Point(277, 221);
+            button19.ForeColor = SystemColors.ActiveCaptionText;
+            button19.Location = new Point(277, 147);
             button19.Name = "button19";
             button19.Size = new Size(72, 62);
             button19.TabIndex = 22;
@@ -247,7 +266,8 @@
             // 
             // button20
             // 
-            button20.Location = new Point(199, 221);
+            button20.ForeColor = SystemColors.ActiveCaptionText;
+            button20.Location = new Point(199, 147);
             button20.Name = "button20";
             button20.Size = new Size(72, 62);
             button20.TabIndex = 21;
@@ -257,26 +277,30 @@
             // 
             // button21
             // 
-            button21.Location = new Point(121, 221);
+            button21.ForeColor = SystemColors.ActiveCaptionText;
+            button21.Location = new Point(121, 147);
             button21.Name = "button21";
             button21.Size = new Size(72, 62);
             button21.TabIndex = 20;
-            button21.Text = "1";
+            button21.Text = "10 ^ 𝑥";
             button21.UseVisualStyleBackColor = true;
+            button21.Click += button21_Click;
             // 
             // button22
             // 
-            button22.Location = new Point(43, 221);
+            button22.ForeColor = SystemColors.ActiveCaptionText;
+            button22.Location = new Point(43, 147);
             button22.Name = "button22";
             button22.Size = new Size(72, 62);
             button22.TabIndex = 19;
-            button22.Text = "1";
+            button22.Text = "1 / 𝑥";
             button22.UseVisualStyleBackColor = true;
+            button22.Click += button22_Click;
             // 
             // labelCurrentOperation
             // 
             labelCurrentOperation.AutoSize = true;
-            labelCurrentOperation.Location = new Point(43, 72);
+            labelCurrentOperation.Location = new Point(43, 27);
             labelCurrentOperation.Name = "labelCurrentOperation";
             labelCurrentOperation.Size = new Size(0, 25);
             labelCurrentOperation.TabIndex = 23;
@@ -284,7 +308,7 @@
             // textBox_Result
             // 
             textBox_Result.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox_Result.Location = new Point(43, 130);
+            textBox_Result.Location = new Point(43, 75);
             textBox_Result.Multiline = true;
             textBox_Result.Name = "textBox_Result";
             textBox_Result.Size = new Size(306, 49);
@@ -296,7 +320,9 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(386, 648);
+            BackColor = Color.Pink;
+            BackgroundImageLayout = ImageLayout.Zoom;
+            ClientSize = new Size(386, 574);
             Controls.Add(textBox_Result);
             Controls.Add(labelCurrentOperation);
             Controls.Add(button19);
@@ -321,6 +347,7 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            ForeColor = SystemColors.ActiveCaptionText;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
