@@ -57,6 +57,7 @@
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ActiveCaptionText;
             button1.Location = new Point(43, 487);
             button1.Name = "button1";
@@ -68,6 +69,7 @@
             // 
             // button2
             // 
+            button2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ActiveCaptionText;
             button2.Location = new Point(43, 419);
             button2.Name = "button2";
@@ -79,6 +81,7 @@
             // 
             // button3
             // 
+            button3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button3.ForeColor = SystemColors.ActiveCaptionText;
             button3.Location = new Point(121, 419);
             button3.Name = "button3";
@@ -90,6 +93,7 @@
             // 
             // button4
             // 
+            button4.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button4.ForeColor = SystemColors.ActiveCaptionText;
             button4.Location = new Point(199, 487);
             button4.Name = "button4";
@@ -101,6 +105,7 @@
             // 
             // button5
             // 
+            button5.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button5.ForeColor = SystemColors.ActiveCaptionText;
             button5.Location = new Point(199, 419);
             button5.Name = "button5";
@@ -112,6 +117,7 @@
             // 
             // button6
             // 
+            button6.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
             button6.ForeColor = SystemColors.ActiveCaptionText;
             button6.Location = new Point(277, 452);
             button6.Name = "button6";
@@ -123,6 +129,7 @@
             // 
             // button7
             // 
+            button7.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
             button7.ForeColor = SystemColors.ActiveCaptionText;
             button7.Location = new Point(277, 351);
             button7.Name = "button7";
@@ -134,6 +141,7 @@
             // 
             // button9
             // 
+            button9.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button9.ForeColor = SystemColors.ActiveCaptionText;
             button9.Location = new Point(43, 351);
             button9.Name = "button9";
@@ -145,6 +153,7 @@
             // 
             // button10
             // 
+            button10.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button10.ForeColor = SystemColors.ActiveCaptionText;
             button10.Location = new Point(121, 351);
             button10.Name = "button10";
@@ -156,6 +165,7 @@
             // 
             // button11
             // 
+            button11.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button11.ForeColor = SystemColors.ActiveCaptionText;
             button11.Location = new Point(199, 351);
             button11.Name = "button11";
@@ -167,6 +177,7 @@
             // 
             // button8
             // 
+            button8.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button8.ForeColor = SystemColors.ActiveCaptionText;
             button8.Location = new Point(43, 283);
             button8.Name = "button8";
@@ -178,6 +189,7 @@
             // 
             // button12
             // 
+            button12.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button12.ForeColor = SystemColors.ActiveCaptionText;
             button12.Location = new Point(121, 283);
             button12.Name = "button12";
@@ -189,6 +201,7 @@
             // 
             // button13
             // 
+            button13.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button13.ForeColor = SystemColors.ActiveCaptionText;
             button13.Location = new Point(199, 283);
             button13.Name = "button13";
@@ -200,6 +213,7 @@
             // 
             // button14
             // 
+            button14.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
             button14.ForeColor = SystemColors.ActiveCaptionText;
             button14.Location = new Point(277, 283);
             button14.Name = "button14";
@@ -211,6 +225,7 @@
             // 
             // button15
             // 
+            button15.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button15.ForeColor = SystemColors.ActiveCaptionText;
             button15.Location = new Point(43, 215);
             button15.Name = "button15";
@@ -222,8 +237,9 @@
             // 
             // button16
             // 
+            button16.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button16.ForeColor = SystemColors.ActiveCaptionText;
-            button16.Location = new Point(121, 215);
+            button16.Location = new Point(43, 147);
             button16.Name = "button16";
             button16.Size = new Size(72, 62);
             button16.TabIndex = 16;
@@ -233,8 +249,9 @@
             // 
             // button17
             // 
+            button17.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button17.ForeColor = SystemColors.ActiveCaptionText;
-            button17.Location = new Point(199, 215);
+            button17.Location = new Point(121, 147);
             button17.Name = "button17";
             button17.Size = new Size(72, 62);
             button17.TabIndex = 17;
@@ -244,7 +261,11 @@
             // 
             // button18
             // 
+            button18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            button18.FlatAppearance.BorderColor = Color.White;
+            button18.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
             button18.ForeColor = SystemColors.ActiveCaptionText;
+            button18.ImageAlign = ContentAlignment.TopCenter;
             button18.Location = new Point(277, 215);
             button18.Name = "button18";
             button18.Size = new Size(72, 62);
@@ -255,6 +276,7 @@
             // 
             // button19
             // 
+            button19.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
             button19.ForeColor = SystemColors.ActiveCaptionText;
             button19.Location = new Point(277, 147);
             button19.Name = "button19";
@@ -266,6 +288,7 @@
             // 
             // button20
             // 
+            button20.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button20.ForeColor = SystemColors.ActiveCaptionText;
             button20.Location = new Point(199, 147);
             button20.Name = "button20";
@@ -277,19 +300,21 @@
             // 
             // button21
             // 
+            button21.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button21.ForeColor = SystemColors.ActiveCaptionText;
-            button21.Location = new Point(121, 147);
+            button21.Location = new Point(199, 215);
             button21.Name = "button21";
             button21.Size = new Size(72, 62);
             button21.TabIndex = 20;
-            button21.Text = "10 ^ 𝑥";
+            button21.Text = "10^𝑥";
             button21.UseVisualStyleBackColor = true;
             button21.Click += button21_Click;
             // 
             // button22
             // 
+            button22.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             button22.ForeColor = SystemColors.ActiveCaptionText;
-            button22.Location = new Point(43, 147);
+            button22.Location = new Point(121, 215);
             button22.Name = "button22";
             button22.Size = new Size(72, 62);
             button22.TabIndex = 19;

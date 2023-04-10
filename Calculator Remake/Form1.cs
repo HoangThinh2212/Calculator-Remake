@@ -2,7 +2,7 @@
 {
     public partial class Calculator : Form
     {
-
+        // Khai báo các biến 
         double resultValue = 0;
         double resultCanBacHai = 0;
         double resultBinhPhuong = 0;
@@ -20,6 +20,7 @@
         {
 
         }
+
         // Hàm dành cho các số từ 0 -> 9 và dấu .
         private void button_Click(object sender, EventArgs e)
         {
@@ -44,6 +45,7 @@
             }
         }
 
+        // Hàm dành cho các nút phép toán
         private void operator_click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
@@ -82,7 +84,9 @@
         // Dấu =
         private void button6_Click(object sender, EventArgs e)
         {
-            switch (operationPerformed)
+            switch (operationPerformed) // khác "" switch ( biến cần xét ) 
+                                        // case .... :
+                                        //        break;
             {
                 case "+":
                     if ((resultCanBacHai != 0) || (resultBinhPhuong != 0) || (resultThapPhan != 0) || (resultMuMuoi != 0))
